@@ -84,3 +84,5 @@ let info = {
 
 console.log(info.first_name);
 console.log(info["school"]);
+
+console.log(info["last_name"]);
