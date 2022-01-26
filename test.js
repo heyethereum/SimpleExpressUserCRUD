@@ -5,7 +5,7 @@ var z = x + y;
 console.log("hello world! " + z);
 
 if (x > 18) {
-  console.log(" Eligible for moderna and Pfizer");
+  console.log("Eligible for moderna and Pfizer");
 } else {
   console.log("Eligible for Pfizer only");
 }
