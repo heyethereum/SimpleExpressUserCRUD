@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heyethereum/batch15.git"
+    "url": "git+https://github.com/heyethereum/SimpleExpressUserCRUD.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heyethereum/batch15/issues"
+    "url": "https://github.com/heyethereum/SimpleExpressUserCRUD/issues"
   },
-  "homepage": "https://github.com/heyethereum/batch15#readme",
+  "homepage": "https://github.com/heyethereum/SimpleExpressUserCRUD#readme",
   "dependencies": {
     "express": "^4.17.2",
     "uuid": "^8.3.2"
