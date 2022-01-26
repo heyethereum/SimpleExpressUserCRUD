@@ -36,15 +36,20 @@ export const updateUser = (req, res) => {
 
   const user = users.find((user) => user.id === id);
 
-  if (firstName) {
+ /*  if (firstName) {
     user.firstName = firstName;
-  }
-  if (lastname) {
+  } 
+    if (lastname) {
     user.lastname = lastname;
   }
   if (age) {
     user.age = age;
-  }
+  }*/
+  // Conditional (ternary) operator
+  user.firstName = firstName ? firstName : user.firstName;
+  user.lastname = lastname ? lastname : user.lastname;
+  user.age = age ? age : user.age;
 
   res.send(`User with the id ${id} has been updated`);
+
 };
