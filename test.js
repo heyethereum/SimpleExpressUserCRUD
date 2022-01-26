@@ -77,8 +77,8 @@ numbers.forEach((x) => {
 console.log("Product: %s, 2 x Product: %s", product, product * 2);
 
 let info = {
-  first_name: "Alex",
-  last_name: "Lim",
+  first_name: "Piggy",
+  last_name: "Inu",
   school: "NUS Computing",
 };
 
