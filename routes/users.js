@@ -3,8 +3,6 @@ import { insertUser, getUsers, getUser, deleteUser, updateUser } from "../contro
 
 const router = express.Router();
 
-let users = [];
-
 // All routes in here are starting with /users
 router.get("/",getUsers);
 
